@@ -1,0 +1,14 @@
+count2++;
+        TaskCountTB.setText(Integer.toString(count2));
+        
+        int T =  Integer.parseInt(HowManyTasksTB.getText());
+        if(T<count2)
+        {
+            JOptionPane.showMessageDialog(null,"Add More Tasks!");
+            
+        }
+        if (T==count2)
+            {
+                ShowReportPanel.setSelectedIndex(5);
+                
+            }
